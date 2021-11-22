@@ -8,6 +8,11 @@ fun String.formatDate(inputFormat : String, outputFormat : String) : String {
         val date = SimpleDateFormat(inputFormat).parse(this)    // parse input
         SimpleDateFormat(outputFormat).format(date)    // format output
     } catch (e: ParseException) {
+
+
+
+
+
         ""
     }
 }
